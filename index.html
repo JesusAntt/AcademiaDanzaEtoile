@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia de Danza Étoile - Inicio</title>
+    <style>
+        /* Estilos sencillos para un diseño limpio */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9ff;
+            color: #333;
+        }
+        header {
+            background-color: #4a1a3b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #6b2d5c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffd966;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo {
+            color: white;
+            border-bottom: 2px solid #ffd966;
+        }
+        .marquesina {
+            background-color: #ffd966;
+            color: #4a1a3b;
+            font-weight: bold;
+            padding: 8px 0;
+        }
+        .contenido {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .bienvenida, .multimedia, .destacados {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #6b2d5c;
+            border-left: 5px solid #ffd966;
+            padding-left: 12px;
+        }
+        .tarjetas {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .tarjeta {
+            background: #f3e6f5;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4a1a3b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        video, audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Marquesina con anuncios -->
+    <div class="marquesina">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            ✨ ¡Inscripciones abiertas 2026! ✨ | 🩰 Clases de Ballet, Jazz, Contemporáneo y Hip-Hop | 💃 ¡Primera clase gratis!
+        </marquee>
+    </div>
+
+    <!-- Encabezado -->
+<header>
+        <h1>ACADEMIA DE DANZA ÉTOILE</h1>
+        <p>Donde el arte se convierte en movimiento</p>
+        <p><a href="index.html" class="activo">Inicio</a> <a href="clases.html">Clases</a> <a href="contacto.html">Contacto</a>
+          <!-- Hipervínculo externo a un sitio de danza -->
+        <a href="https://www.danzaballet.com" target="_blank">Recursos de danza</a></p>
+    </header>
+
+    <!-- Navegación (hipervínculos internos y externo) --><!-- Contenido principal -->
+    <div class="contenido">
+
+        <!-- Sección de bienvenida --><!-- Sección multimedia (video y audio) -->
+        <div class="multimedia">
+            <h2>Bienvenidos a Étoile</h2>
+            <p>Somos una academia dedicada a la enseñanza de la danza en todas sus formas. Clases para niños, jóvenes y adultos en un ambiente profesional y divertido.</p>
+            <p><strong>Dirección:</strong> Calle del Arte 123, Ciudad Danza | <strong>Tel:</strong> (555) 555-5555</p>
+            <!-- Hipervínculo interno a contacto -->
+            <p><a href="contacto.html">👉 Inscríbete aquí</a></p>
+            <h2>🎬 Vive la danza</h2>
+            <p><strong>Video destacado:</strong></p>
+            <video controls="controls" >
+              <source src="Video1.mp4" type="video/mp4">
+            </video>
+            <p>&nbsp;</p>
+          <!-- Video de YouTube como ejemplo (puedes cambiarlo por una etiqueta <video> con tu archivo) -->
+            
+            <p><em>Presentación de nuestras alumnas</em></p>
+
+            <p><strong>Música para clase:</strong></p>
+            <!-- Reproductor de audio (puedes cambiar el src por tu archivo .mp3) -->
+            <audio controls>
+              <source src="intro.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <!-- Sección de clases destacadas (tarjetas simples) -->
+        <div class="destacados">
+            <h2>Nuestras clases</h2>
+            <table width="841" height="206" border="0" cellpadding="0" cellspacing="5">
+              <tbody>
+                <tr>
+                  <td width="293"><h3>🩰 Ballet</h3>
+                  <p>Técnica clásica para todas las edades.</p></td>
+                  <td width="293"><h3>🎵 Contemporáneo</h3>
+                  <p>Expresión y libertad de movimiento.</p></td>
+                  <td width="235"><h3>🔥 Hip-Hop</h3>
+                  <p>Ritmos urbanos y coreografías modernas.</p></td>
+                </tr>
+              </tbody>
+            </table>
+          <p style="text-align:center; margin-top:15px;"><a href="clases.html">Ver horarios y niveles →</a></p>
+        </div>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2026 Academia de Danza Étoile | Síguenos en 
+            <a href="https://www.instagram.com" target="_blank" style="color:#ffd966;">Instagram</a> y 
+            <a href="https://www.facebook.com" target="_blank" style="color:#ffd966;">Facebook</a>
+        </p>
+    </footer>
+
+</body>
+</html>

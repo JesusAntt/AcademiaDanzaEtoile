@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clases - Academia Étoile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9ff;
+            color: #333;
+        }
+        header {
+            background-color: #4a1a3b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #6b2d5c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffd966;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo {
+            color: white;
+            border-bottom: 2px solid #ffd966;
+        }
+        .marquesina {
+            background-color: #ffd966;
+            color: #4a1a3b;
+            font-weight: bold;
+            padding: 8px 0;
+        }
+        .contenido {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .seccion {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #6b2d5c;
+            border-left: 5px solid #ffd966;
+            padding-left: 12px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #6b2d5c;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f0f9;
+        }
+        .nivel {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .nivel div {
+            background: #f3e6f5;
+            border-radius: 8px;
+            padding: 15px;
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4a1a3b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="marquesina">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            📅 Horarios 2026 | 🩰 Clases para todas las edades | ✅ ¡Cupos limitados!
+        </marquee>
+    </div>
+
+    <header>
+        <h1>ACADEMIA DE DANZA ÉTOILE</h1>
+        <p>Horarios y Clases</p>
+        <p><a href="index.html">Inicio</a> <a href="clases.html" class="activo">Clases</a> <a href="contacto.html">Contacto</a> <a href="https://www.danzaballet.com" target="_blank">Recursos de danza</a> </p>
+    </header>
+    <div class="contenido">
+        <!-- Tabla de horarios --><!-- Niveles y precios -->
+        <div class="seccion">
+            <h1>🗓️ Horario Semanal</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>Horario</th>
+                  <th>Lunes</th>
+                  <th>Martes</th>
+                  <th>Miércoles</th>
+                  <th>Jueves</th>
+                  <th>Viernes</th>
+                  <th>Sábado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>09:00 - 10:30</td>
+                  <td>Ballet infantil</td>
+                  <td>Jazz kids</td>
+                  <td>Ballet infantil</td>
+                  <td>Contemporáneo</td>
+                  <td>Hip-Hop junior</td>
+                  <td>Ballet adultos</td>
+                </tr>
+                <tr>
+                  <td>11:00 - 12:30</td>
+                  <td>Danza clásica</td>
+                  <td>Flexibilidad</td>
+                  <td>Puntas</td>
+                  <td>Jazz adultos</td>
+                  <td>Street dance</td>
+                  <td>Ensayo</td>
+                </tr>
+                <tr>
+                  <td>16:00 - 17:30</td>
+                  <td>Pre-Ballet</td>
+                  <td>Danza moderna</td>
+                  <td>Pre-Ballet</td>
+                  <td>AcroDanza</td>
+                  <td>Coreografía</td>
+                  <td>—</td>
+                </tr>
+                <tr>
+                  <td>18:00 - 19:30</td>
+                  <td>Ballet intermedio</td>
+                  <td>Contemporáneo</td>
+                  <td>Jazz funk</td>
+                  <td>Ballet avanzado</td>
+                  <td>Improvisación</td>
+                  <td>—</td>
+                </tr>
+              </tbody>
+            </table>
+            <h1>💲 Planes</h1>
+            <div>
+              <h3>Principiante</h3>
+              <p>2 clases/semana</p>
+              <p><strong>$45/mes</strong></p>
+            </div>
+            <div>
+              <h3>Intermedio</h3>
+              <p>3 clases/semana</p>
+              <p><strong>$65/mes</strong></p>
+            </div>
+            <div>
+              <h3>Avanzado</h3>
+              <p>Clases ilimitadas</p>
+              <p><strong>$90/mes</strong></p>
+            </div>
+            <p>&nbsp;</p>
+            <p style="text-align:center; margin-top:20px;"><a href="contacto.html">👉 Inscríbete ahora</a></p>
+      </div>
+</div>
+</body>
+</html>

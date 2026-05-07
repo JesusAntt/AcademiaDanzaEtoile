@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Academia Étoile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9ff;
+            color: #333;
+        }
+        header {
+            background-color: #4a1a3b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #6b2d5c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffd966;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo {
+            color: white;
+            border-bottom: 2px solid #ffd966;
+        }
+        .marquesina {
+            background-color: #ffd966;
+            color: #4a1a3b;
+            font-weight: bold;
+            padding: 8px 0;
+        }
+        .contenido {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        .formulario, .info {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 280px;
+        }
+        h2 {
+            color: #6b2d5c;
+            border-left: 5px solid #ffd966;
+            padding-left: 12px;
+        }
+        form label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+        form button {
+            background-color: #6b2d5c;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 18px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+        }
+        form button:hover {
+            background-color: #4a1a3b;
+        }
+        footer {
+            background-color: #4a1a3b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .info p {
+            margin: 8px 0;
+        }
+        .info a {
+            color: #6b2d5c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="marquesina">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            📞 Llámanos: (555) 123-4567 | ✉️ info@etoiledanza.com | 🎁 Primera clase de prueba GRATIS
+        </marquee>
+    </div>
+
+    <header>
+        <h1>ACADEMIA DE DANZA ÉTOILE</h1>
+        <p>Contáctanos</p>
+        <p><a href="index.html" class="activo">Inicio</a> <a href="clases.html">Clases</a> <a href="contacto.html">Contacto</a>
+          <!-- Hipervínculo externo a un sitio de danza -->
+        <a href="https://www.danzaballet.com" target="_blank">Recursos de danza</a></p>
+    </header>
+    <div class="contenido">
+        <p>
+        <!-- Formulario de contacto --></p>
+        <h2>📝 Formulario de inscripción</h2>
+        <form action="#" method="post">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="telefono">Teléfono:</label>
+          <input name="telefono" type="tel" id="telefono" maxlength="10">
+          <label for="number">Number:</label>
+          <input name="number" type="number" id="number" max="10" min="10">
+          <label for="tel">Tel:</label>
+          <input name="tel" type="tel" id="tel" size="10">
+<label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" min="3" max="99">
+          <label for="clase">Clase de interés:</label>
+          <select id="clase" name="clase">
+            <option value="">Selecciona una opción</option>
+            <option value="ballet">Ballet</option>
+            <option value="contemporaneo">Contemporáneo</option>
+            <option value="jazz">Jazz</option>
+            <option value="hiphop">Hip-Hop</option>
+            <option value="otro">Otro</option>
+          </select>
+          <label for="mensaje">Mensaje o comentarios:</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+          <button type="submit">✨ Enviar solicitud</button>
+        </form>
+<p><!-- Información de contacto -->
+    </p>
+<h2>📍 Encuéntranos</h2>
+<p><strong>Dirección:</strong> Calle del Arte 123, Ciudad Danza</p>
+<p><strong>Teléfono:</strong> <a href="tel:+525551234567">(555) 555-555</a></p>
+<p><strong>WhatsApp:</strong> <a href="https://wa.me/555555555" target="_blank">Enviar mensaje</a></p>
+<p><strong>Email:</strong> <a href="mailto:23110273@cobachih.edu">23110273@cobachih.edu</a></p>
+<p><strong>Horario de oficina:</strong> Lunes a viernes 9:00 - 20:00</p>
+<p style="margin-top:20px;"><a href="clases.html">← Volver a horarios</a></p>
+<p><a href="https://www.danzaballet.com" target="_blank">Sitio aliado de danza (externo)</a></p>
+</div>
+</body>
+</html>
